@@ -7,3 +7,70 @@ body {
 img {
     padding-right: 20px;
 }
+
+.jumbotron {
+    background-color: white;
+    border: solid 2px grey;
+}
+
+.bg-light {
+    background-color: white;
+    height: 60px;
+    border-bottom: solid 2px grey;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    background-color: teal;
+    padding: 1rem;
+    margin-left: 10rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: grey;
+    margin-left: 375px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: grey;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    border-top: solid 2px teal;
+    height: 60px;
+}
+
+ #copyright {
+     color: white;
+     font-size: xx-small;
+     margin-top: 28px;
+     text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-light .navbar-brand {
+        color: #fff;
+        background-color: teal;
+        padding: 1rem;
+        margin-left: 10rem;
+        margin-top: -12px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    margin-right: 2rem;
+    margin-top: -9px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: teal;
+}
