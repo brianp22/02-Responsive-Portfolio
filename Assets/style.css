@@ -8,6 +8,47 @@ img {
     padding-right: 20px;
 }
 
+.h2, h2 {
+    font-size: 2rem;
+    color: white;
+    background-color: teal;
+    padding: .61rem;
+    margin-top: -13px;
+    margin-left: 139px;
+}
+
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 155px;
+    margin-top: -20px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul > li {
+    display: inline-block;
+    padding: .2rem;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 .jumbotron {
     background-color: white;
     border: solid 2px grey;
@@ -24,22 +65,6 @@ img {
     background-color: #f8f9fa!important;
 }
 
-.navbar-light .navbar-brand {
-    color: #fff;
-    background-color: teal;
-    padding: 1rem;
-    margin-left: 340px;
-    margin-top: 0px;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: grey;
-    margin-left: 375px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: grey;
-}
 
 .footer {
     position: fixed;
@@ -57,16 +82,3 @@ img {
      margin-top: 28px;
      text-align: center;
 }
-
-
-
-
- @media only screen and (max-width: 991px) {
-    .navbar-light .navbar-brand {
-        color: #fff;
-        background-color: teal;
-        padding: 1rem;
-        margin-left: 10rem;
-        margin-top: -79px;
-    } }
-
