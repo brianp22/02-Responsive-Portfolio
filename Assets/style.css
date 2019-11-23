@@ -1,8 +1,10 @@
 body {
     padding: 0;
     margin: 0;
-    background: rgb(236, 236, 236);
+    background-color: skyblue;
 }
+
+
 
 img {
     padding-right: 20px;
@@ -10,11 +12,12 @@ img {
 
 .h2, h2 {
     font-size: 2rem;
-    color: white;
-    background-color: teal;
+    color: lavender;
+    background-color: royalblue;
     padding: .61rem;
     margin-top: -13px;
-    margin-left: 139px;
+    margin-left: 340px;
+    border-radius: 10px;
 }
 
 .form-inline {
@@ -24,7 +27,7 @@ img {
     flex-flow: row wrap;
     -ms-flex-align: center;
     align-items: center;
-    margin-right: 155px;
+    margin-right: 340px;
     margin-top: -20px;
 }
 
@@ -50,29 +53,25 @@ a {
 }
 
 .jumbotron {
-    background-color: white;
-    border: solid 2px grey;
+    background-color: lavender;
+    border: solid 2px mediumpurple;
+    border-radius: 10px;
 }
 
 .bg-light {
-    background-color: white;
+    background-color: mediumpurple;
     height: 60px;
-    border-bottom: solid 2px grey;
+    border-bottom: solid 2px mediumpurple;
     width: 100%;
 }
-
-.bg-light {
-    background-color: #f8f9fa!important;
-}
-
 
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: grey;
-    border-top: solid 2px teal;
+    background-color: royalblue;
+    border-top: solid 2px mediumpurple;
     height: 60px;
 }
 
@@ -97,4 +96,39 @@ a {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+@media only screen and (max-width: 1150px) {
+
+    .h2, h2 {
+        font-size: 2rem;
+
+        padding: .61rem;
+        margin-top: -13px;
+        margin-left: 200px;
+}
+}
+
+@media only screen and (max-width: 1010px) {
+
+    .h2, h2 {
+        font-size: 2rem;
+        padding: .61rem;
+        margin-top: -13px;
+        margin-left: 0;
+}
+}
+
+@media only screen and (max-width: 579px) {
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-left: -53px;
+}
 }
